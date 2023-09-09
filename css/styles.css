@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html, body {
+  box-sizing: inherit;
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 0 20px;
+    box-shadow: 0px 0px 50px 0px black;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lexend-deca-v21-latin-regular.woff2') format('woff2');
+  }
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v13-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/space-mono-v13-latin-700.woff2') format('woff2');
+  }
+.header {
+height: 96px;
+display: flex;
+align-items: center;
+}
+.header-logo {
+    width: 107px;
+height: 28px;
+margin-left: 169px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+.item {
+    margin-right: 32px;
+    color: rgba(147, 156, 170, 1);
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+.get {
+    width: 180px;
+height: 53px;
+margin-left: 280px;
+background-color: rgba(252, 183, 43, 1);
+font-family: "Space Mono";
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+border: none;
+margin-right: 165px;
+}
+.intro {
+height: 600px;
+background-image: url(../img/hedr-bg.jpg);
+background-repeat: no-repeat;
+background-size: 1280px 600px;
+overflow: hidden;
+}
+.scooter {
+    width: 500px;
+height: 112px;
+margin-top: 153px;
+margin-left: 165px;
+font-family: "Space Mono";
+font-size: 56px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: -2.5px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.chiziq {
+    width: 202px;
+
+}
+.ichi {
+    width: 1152px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.scoot {
+    width: 405px;
+height: 100px;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color:  rgba(255, 255, 255, 1);
+margin-left: 57px;
+}
+.chap-kotta {
+    width: 447px;
+height: 138px;
+margin-top: 30px;
+}
+.app {
+  margin: auto;
+  width: 1080px;
+height: 291px;
+margin-top: 160px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.tele {
+  width: 350px;
+  height: 300px;
+
+}
+.telefon {
+  width: 96px;
+height: 96px;
+}
+.locate {
+  margin-top: 40px;
+  font-family: "Space Mono";
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.use {
+  margin-top: 27px;
+  width: 350px;
+height: 100px;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(147, 156, 170, 1);
+}
+.easy {
+  margin: auto;
+  margin-top: 200px;
+  width: 1110px;
+height: 450px;
+display: flex;
+align-items: center;
+}
+.easy:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.yozuv {
+  width: 445px;
+height: 313px;
+}
+.coming {
+  width: 445px;
+height: 96px;
+font-family: "Space Mono";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+text-align: left;
+color: rgba(73, 85, 103, 1);
+}
+.payment {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 445px;
+height: 100px;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: rgba(147, 156, 170, 1);
+}
+.rasm {
+  width: 445px;
+height: 445px;
+z-index: 1;
+}
+.image {
+  z-index: 9999;
+  margin-top: 300px;
+}
+.footer-img {
+  width: 1280px;
+height: 330px;
+margin-top: 330px;
+margin-left: -20px;
+}
+.footer {
+  margin-left: -20px;
+  width: 1280px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(51, 58, 68, 1);
+}
+.internet {
+  width: 120px;
+height: 24px;
+margin-left: 400px;
+}
